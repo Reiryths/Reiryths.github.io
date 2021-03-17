@@ -1,7 +1,7 @@
 <html>
 <body>
 <center>
-<input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Iyong pangalan" id="name">
+<input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Iyong pangalan..." id="name">
 <br>
 </br>
 <input type="button" value="Pindut" onClick="testing();">
@@ -11,9 +11,9 @@ center {
   margin-top: 300px;
 }
 input[type="button"] {
-  color: rgb(0,64,255);
+  color: rgb(96,96,96);
   background-color: white;
-  border-color: rgb(0,64,255);
+  border-color: rgb(76,0,153);
   font-size: 17px;
   border-radius: 25px;
   padding: 3px;
@@ -21,9 +21,9 @@ input[type="button"] {
 input[type="text"] {
   background-color: white;
   border-top: none;
-  border-left: none;
-  border-right: none;
-  border-color: rgb(0,64,255);
+  border-left: ;
+  border-right: ;
+  border-color: rgb(76,0,153);
   font-size: 20px;
   border-radius: 25px;
   padding:3px;
