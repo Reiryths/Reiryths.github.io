@@ -2,11 +2,11 @@
 <body>
 <center>
 <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Iyong pangalan..." id="name">
-<br></br>
+<br><br>
 <input type="button" value="Pindut" onClick="testing();">
 </center>
 <style type="text/css">
-center {
+center { 
   margin-top: 300px;
 }
 input[type="button"] {
@@ -14,7 +14,7 @@ input[type="button"] {
   background-color: white;
   border-color: rgb(76,0,153);
   font-size: 17px;
-  border-radius: 25px;
+  border-radius: 20px;
   padding: 3px;
 }
 input[type="text"] {
@@ -53,3 +53,5 @@ function checks(num) {
   }
 }
 </script>
+</body>
+</html>
