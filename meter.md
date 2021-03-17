@@ -1,7 +1,7 @@
 <html>
 <body>
 <center>
-<input type="text" placeholder="Isulat ang iyong pangalan" id="name">
+<input type="text" placeholder="Iyong pangalan" id="name">
 <br>
 <input type="button" value="PINDUTIN" onClick="testing();">
 </center>
@@ -14,7 +14,7 @@ input[type="button"] {
   background-color: white;
   border-color: rgb(0,64,255);
   font-size: 20px;
-  border-radius: 25px;
+  border-radius: 20px;
   padding: 2px;
 }
 input[type="text"] {
@@ -24,7 +24,7 @@ input[type="text"] {
   border-right: none;
   border-color: rgb(0,64,255);
   font-size: 20px;
-  border-radius: 25px;
+  border-radius: 20px;
   padding: 5px;
 }
 </style>
