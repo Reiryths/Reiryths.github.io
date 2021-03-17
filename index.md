@@ -1,9 +1,10 @@
 <html>
 <body>
 <center>
-<input type="text" placeholder="&nbsp;Iyong pangalan" id="name">
+<input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Iyong pangalan" id="name">
 <br>
-<input type="button" value="RUN" onClick="testing();">
+</br>
+<input type="button" value="Pindut" onClick="testing();">
 </center>
 <style type="text/css">
 center {
@@ -13,9 +14,9 @@ input[type="button"] {
   color: rgb(0,64,255);
   background-color: white;
   border-color: rgb(0,64,255);
-  font-size: 20px;
-  border-radius: 20px;
-  padding: 2px;
+  font-size: 17px;
+  border-radius: 25px;
+  padding: 3px;
 }
 input[type="text"] {
   background-color: white;
@@ -24,8 +25,8 @@ input[type="text"] {
   border-right: none;
   border-color: rgb(0,64,255);
   font-size: 20px;
-  border-radius: 20px;
-  padding: 5px;
+  border-radius: 25px;
+  padding:3px;
 }
 </style>
 <script type="text/javascript">
