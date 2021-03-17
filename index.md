@@ -2,8 +2,7 @@
 <body>
 <center>
 <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Iyong pangalan..." id="name">
-<br>
-</br>
+<br></br>
 <input type="button" value="Pindut" onClick="testing();">
 </center>
 <style type="text/css">
