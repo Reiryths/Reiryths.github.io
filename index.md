@@ -1,9 +1,9 @@
 <html>
 <body>
 <center>
-<input type="text" placeholder="Iyong pangalan" id="name">
+<input type="text" placeholder="&nbsp;Iyong pangalan" id="name">
 <br>
-<input type="button" value="PINDUTIN" onClick="testing();">
+<input type="button" value="RUN" onClick="testing();">
 </center>
 <style type="text/css">
 center {
@@ -35,18 +35,18 @@ function testing() {
     var num = Math.floor(Math.random() * 100) + 1;
     alert(nam + " Is " + num + "% Handsome\n" + checks(num));
   } else {
-    alert("Name Cannot be blank");
+    alert("Bawal ang blangko be!");
   }
 }
 function checks(num) {
   if (num >= 40 && num <= 60) {
-    return "I guess your normal";
+    return "Satingin ko ikaw ay normal";
   }
   else if (num <= 40 && num >= 0) {
-    return "You're ugly sorry";
+    return "Pasensya be ikaw ay panget";
   }
   else if (num >= 60 && num <= 100) {
-    return "You're super CUTE!";
+    return "Napaka super CUTE mo!";
   }
   else {
     return "HMMMM...";
