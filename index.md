@@ -40,13 +40,13 @@ function testing() {
 }
 function checks(num) {
   if (num >= 40 && num <= 60) {
-    return "Satingin ko ikaw ay normal";
+    return "Satingin ko ikaw ay normal.";
   }
   else if (num <= 40 && num >= 0) {
-    return "Pasensya be ikaw ay panget";
+    return "Pasensya be ikaw ay panget!";
   }
   else if (num >= 60 && num <= 100) {
-    return "Napaka super CUTE mo!";
+    return "Napaka CUTE mo!";
   }
   else {
     return "HMMMM...";
